@@ -1,16 +1,9 @@
-# A minimal template for data analysis with python 
+## Step 2 : In your Jupyter Editor : Answer the following questions 
 
-This is a minimal template for data analysis with python, intended to researchers in human movement sciences that are new to python.   
-Cloning this template for each new data analysis problem should facilitate data analyses with python and minimize potential errors.   
-
-## Usage (without Git)
-1. Download as a zip file (green button `< > Code` on the top right of the page)
-1. Expand the archive on your computer (e.g., in your `Download` folder). 
-1. Rename the extracted folder with the name of your new project (e.g., `ECG_analysis`)
-1. Move the new `ECG_analysis` folder where it should be located (e.g., in your `Documents/CodeProjects/` directory)
-1. In VSCode :
-    1. open the new project in a new window. 
-    1. open `main.ipynb` and click `Run all`
-
-## Requirements
-- VSCode with the python and jupyter extensions installed (or any other IDE that supports python and jupyter notebooks)
+# - Does this ECG look correctly scaled to you ? Please explain
+      The graphe of the Lead I shows an unclear aspect of the different PQRST waves that seems occured du to an too small scale.
+# - Is this a normal ECG ? Please explain
+      Due to the scale limitation we cannot perform a complete analysis of the ECG waves, by the way, the original data only provide us the leads I, II and III.
+      However, we can conclude that we have a regular, sinusal (all the P waves are followed by a QRS complex) rythm (between 60 an 90 bpm), with only 3 leads we can not determine the axis of this ecg.
+      P waves seems normals, the PR-segment seems to have a regular lenght, QRS are thin, the negative T waves on the lead II can be an argument in favor a cardiac dysfunction (maybe linked to the supposed STEMI ?)
+      On the lead III we can suppose the existence of an ST-segment elevation (in favor of an inferior STEMI) but further investigation is needed (more leads !)
